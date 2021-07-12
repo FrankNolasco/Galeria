@@ -1,0 +1,31 @@
+.my_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    background-color: var(--primary);
+    color: var(--color-primary);
+    padding: 0px 20px;
+}
+
+.my_header > figure {
+    background-color: var(--color-primary);
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+}
+
+
+.my_footer {
+    background-color: gray;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 5px;
+    
+}

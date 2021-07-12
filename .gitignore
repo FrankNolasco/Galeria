@@ -1,0 +1,8 @@
+#folder venv
+venv
+
+#folder .idea
+.idea
+
+#folder __pycache__
+__pycache__

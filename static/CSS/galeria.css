@@ -1,0 +1,34 @@
+.galery-videos, .galery-photos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+}
+
+.galery-photos > figure {
+    width: 100%;
+    margin: 0;
+    background-color: var(--color-primary);
+    transition: transform .4s;
+    border-radius: 5px;
+    overflow: hidden;
+    border: solid 2px var(--primary);
+}
+
+.galery-photos > figure:hover, 
+    .galery-videos > video:hover {
+    transform: scale(1.25);
+}
+.galery-photos > figure > figcaption {
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.galery-photos > figure > img {
+    width: 100%;
+    height: auto;
+}
+
+
+.galery-videos > video {
+    width: 100%;
+}
